@@ -59,6 +59,9 @@ fn change(s: &mut String) {
         s.push_str("s");
     }
 }
+fn add(x: &i32, y: &i32) -> i32{
+        *x + *y
+    }
 
 // pub fn change(arg: &mut str) {
 //     if !inspect(&arg) {
